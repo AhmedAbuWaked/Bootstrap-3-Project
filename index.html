@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <!-- IE Compatibility Meta -->
+        <meta  http-equiv="X-UA-Compatible" content="IE=edge" />
+        <!-- First Mobile Meta -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+        <title>BOOTSTRAP 3</title>
+        
+        <!-- Bootstrap File -->
+        <link rel="stylesheet" href="css/bootstrap.css" />
+
+        <!-- Hover CSS File -->
+        <link rel="stylesheet" href="css/hover-min.css" />
+
+        <!-- Google Font -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lacquer|Lobster|Ma+Shan+Zheng|Oswald|Roboto&display=swap">
+
+        <!-- Animate CSS File -->
+        <link rel="stylesheet" href="css/animate.css" />
+        <!-- Font-Awesome File -->
+        <link href="css/fontawesome.min.css" rel="stylesheet">
+        <link href="css/brands.min.css" rel="stylesheet">
+        <link href="css/solid.min.css" rel="stylesheet">
+              
+        <!-- Style File -->
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/media.css" />
+        <link rel="stylesheet" href="css/default-theme.css" />
+
+        <!--[if lt IE 9]>
+          <script src="js/html5shiv.min.js"></script>
+          <script src="js/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+      
+        <!-- Start Section Tool Box -->
+
+        <section class="option-box">
+          <div class="content-option">
+            <h4 class="text-center">Color Option</h4>
+            <ul class="text-center list-unstyled color-option">
+              <li data-value="css/default-theme.css"></li>
+              <li data-value="css/green-theme.css"></li>
+              <li data-value="css/blue-theme.css"></li>
+              <li data-value="css/brow-theme.css"></li>
+              <li data-value="css/yelleow-theme.css"></li>
+            </ul>
+            <hr>
+            <h4 class="text-center">Font Option</h4>
+            <ul class="list-unstyled font-option">
+              <li data-family="Bree Serif">Bree Serif</li>
+              <li data-family="Roboto">Roboto</li>
+              <li data-family="Oswald">Oswald</li>
+              <li data-family="Lacquer">Lacquer</li>
+              <li data-family="Ma Shan Zheng">Ma Shan Zheng</li>
+              <li data-family="Lobster">Lobster</li>
+            </ul>
+          </div>
+          <div class="gear-check"><i class="fas fa-cog"></i></div>
+          
+        </section>
+  
+
+        <!-- End Section Tool Box -->
+
+        <!-- Start Our Navbar -->
+        <nav class="navbar navbar-inverse">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Web<span>Designer</span></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Programming</a></li>
+                    <li><a href="#">web Design</a></li>
+                    <li><a href="#">Desktop</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Web Hosting</a></li>
+                  </ul>
+                </li>
+                  <li><a href="#">Map</a></li>
+                  <li><a href="#">Contact</a></li>
+              </ul>
+             
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+        <!-- End Our Navbar -->
+        
+        <!-- Start Carousel -->
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators hidden-xs">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="image/slide1.jpg" alt="...">
+                <div class="cover">
+                  <div class="carousel-caption hidden-xs">
+                    <h2 class="h1">Programming</h2>
+                      <p class="lead">Note: Do not use the affix plugin on an element contained in a relatively positioned element, such as a pulled or pushed column, due to a Safari rendering bug.</p>
+                      <button class="btn btn-primary hvr-shrink">Read More</button>
+                      <button class="btn btn-danger hvr-shrink">Buy Now</button>
+                  </div>
+                </div>
+            </div>
+            <div class="item">
+              <img src="image/slide2.jpg" alt="...">
+              <div class="cover">
+                  <div class="carousel-caption hidden-xs">
+                    <h2 class="h1">Programming</h2>
+                      <p class="lead">Note: Do not use the affix plugin on an element contained in a relatively positioned element, such as a pulled or pushed column, due to a Safari rendering bug.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/slide3.jpg" alt="...">
+                <div class="cover">
+                  <div class="carousel-caption hidden-xs">
+                    <h2 class="h1">Programming</h2>
+                      <p class="lead">Note: Do not use the affix plugin on an element contained in a relatively positioned element, such as a pulled or pushed column, due to a Safari rendering bug.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="item">
+              <img src="image/slide4.jpg" alt="...">
+              <div class="cover">
+                  <div class="carousel-caption hidden-xs">
+                    <h2 class="h1">Programming</h2>
+                      <p class="lead">Note: Do not use the affix plugin on an element contained in a relatively positioned element, such as a pulled or pushed column, due to a Safari rendering bug.</p>
+                  </div>
+                </div>
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>   
+        <!-- End Carousel -->
+        
+        <!-- Start About Section -->
+        
+        <section class="about text-center wow lightSpeedIn" data-wow-duration="2s" data-wow-offset="300">
+            <div class="container">
+                <h1>Meet Our New Template <span>WebDesinger</span></h1>
+                <p class="lead">Hello Let Me Introduce  Our new Template WebDesigner Created With All Love With <strong>Bootstrap</strong> 3.2.2</p>
+            </div>
+        </section>
+        
+        <!-- End About Section -->
+        
+        <!-- Start Section Features -->
+        
+        <section class="features text-center">
+            <div class="container">
+                <h2 class="h1">Our Features</h2>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-xs-12">
+                      <div class="feat wow bounceInLeft" data-wow-duration="1s" data-wow-offset="200">
+                          <span class="glyphicon glyphicon-ok"></span>
+                          <h4>100% Responsive</h4>
+                          <p>Commodo consectetur enim Lorem deserunt quis laboris eiusmod eiusmod Sunt dolore veniam sit eu..</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-xs-12">
+                        <div class="feat wow bounceInDown" data-wow-duration="1s" data-wow-offset="200">
+                            <span class="glyphicon glyphicon-thumbs-up"></span>
+                            <h4>Retina Ready</h4>
+                            <p>Commodo consectetur enim Lorem deserunt quis laboris eiusmod eiusmod.In dolore minim minim ipsum mollit magna laborum exercitation sit.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-xs-12">
+                        <div class="feat wow bounceInUp" data-wow-duration="1s" data-wow-offset="200">
+                            <span class="glyphicon glyphicon-eye-open"></span>
+                            <h4>Awesome Display</h4>
+                            <p>Commodo consectetur enim Lorem deserunt quis laboris eiusmod eiusmod.Pariatur amet enim incididunt duis aute elit id nulla ut amet consectetur consequat magna nulla.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-xs-12">
+                        <div class="feat wow bounceInRight" data-wow-duration="1s" data-wow-offset="200">
+                            <span class="glyphicon glyphicon-pencil"></span>
+                            <h4>Well Documented</h4>
+                            <p>Commodo consectetur enim Lorem deserunt quis laboris eiusmod eiusmod.Est nulla ullamco aute eu incididunt.</p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </section>
+        
+        <!-- End Section Features -->
+
+        <!-- Start Testimonials Section -->
+
+        <section class="testimonials text-center wow flipInY" data-wow-duration="1s" data-wow-offset="200">
+          <div class="container">
+            <h2 class="h1">What Our Clinets Say...?!</h2>
+          <!-- Start Testimonials Carousel -->
+            <div id="mytestimonials" class="carousel slide" data-ride="carousel">
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <p class="lead">Note: Do not use the affix plugin on an element contained in a relatively positioned element, such as a pulled or pushed column, due to a Safari rendering bug.</p>
+                    <span>Mohammed</span>
+                </div>
+                <div class="item">
+                    <p class="lead">Note: Do not use the affix plugin on an element contained in a relatively positioned element, such as a pulled or pushed column, due to a Safari rendering bug.</p>
+                    <span>Ahmed</span>
+                </div>
+                <div class="item">
+                    <p class="lead">Note: Do not use the affix plugin on an element contained in a relatively positioned element, such as a pulled or pushed column, due to a Safari rendering bug.</p>
+                    <span>Ibrahim</span>
+                </div>
+                <div class="item">
+                    <p class="lead">Note: Do not use the affix plugin on an element contained in a relatively positioned element, such as a pulled or pushed column, due to a Safari rendering bug.</p>
+                    <span>Yehya</span>
+                </div>
+              </div>
+
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                  <li data-target="#mytestimonials" data-slide-to="0" class="active">
+                    <img src="image/marwa.jpg" alt="...">
+                  </li>
+                  <li data-target="#mytestimonials" data-slide-to="1">
+                    <img src="image/ahmed.jpg" alt="...">
+                  </li>
+                  <li data-target="#mytestimonials" data-slide-to="2">
+                    <img src="image/lack.jpg" alt="...">
+                  </li>
+                  <li data-target="#mytestimonials" data-slide-to="3">
+                    <img src="image/client.png" alt="...">
+                  </li>
+              </ol>
+                
+            </div>   
+          </div>
+          <!-- End Testimonials Carousel -->
+        </section>
+
+        <!-- End Testimonials Section-->
+
+        <!-- Start Section Price Table -->
+
+        <section class="price-table text-center">
+          <div class="container">
+            <h2 class="h1">Our Amazing Prices</h2>
+
+            <div class="row">
+
+              <div class="col-md-3 col-sm-6 col-sx-12">
+                <div class="price-box wow fadeInUp" data-wow-duration="2s" data-wow-offset="400">
+                  <h2 class="text-primary">Hosting</h2>
+                  <p class="center-block">40$</p>
+                  <ul class="list-unstyled">
+                    <li>Space: 30GB</li>
+                    <li>Emails: 20</li>
+                    <li>IPS: 2IP</li>
+                    <li>Database: 10</li>
+                    <li>FTB Accounts: 5</li>
+                  </ul>
+                  <button class="btn btn-primary hvr-bounce-in">Order Now</button>
+                </div>
+              </div>
+
+              <div class="col-md-3 col-sm-6 col-sx-12">
+                <div class="price-box wow fadeInDown" data-wow-duration="2s" data-wow-offset="400">
+                  <h2 class="text-success">VPS</h2>
+                  <p class="center-block">50$</p>
+                  <ul class="list-unstyled">
+                    <li>Space: 50GB</li>
+                    <li>Emails: 40</li>
+                    <li>IPS: 5IP</li>
+                    <li>Database: 20</li>
+                    <li>FTB Accounts: 10</li>
+                  </ul>
+                  <button class="btn btn-success hvr-bounce-in">Order Now</button>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 col-sx-12">
+                  <div class="price-box wow fadeInUp" data-wow-duration="2s" data-wow-offset="400">
+                    <h2 class="text-info">Dedicated</h2>
+                    <p class="center-block">70$</p>
+                    <ul class="list-unstyled">
+                      <li>Space: 40GB</li>
+                      <li>Emails: 40</li>
+                      <li>IPS: 8IP</li>
+                      <li>Database: 30</li>
+                      <li>FTB Accounts: 20</li>
+                    </ul>
+                    <button class="btn btn-info hvr-bounce-in">Order Now</button>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-sx-12">
+                    <div class="price-box wow fadeInDown" data-wow-duration="2s" data-wow-offset="400">
+                      <h2 class="text-danger">Cloud</h2>
+                      <p class="center-block">90$</p>
+                      <ul class="list-unstyled">
+                        <li>Space: 90GB</li>
+                        <li>Emails: 50</li>
+                        <li>IPS: 10IP</li>
+                        <li>Database: 50</li>
+                        <li>FTB Accounts: 50</li>
+                      </ul>
+                      <button class="btn btn-danger hvr-bounce-in">Order Now</button>
+                    </div>
+                  </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- End Section Price Table -->
+
+        <!-- Start Section Our Team -->
+
+        <section class="our-team text-center">
+          <div class="layout">
+            <div class="container">
+                <h2 class="h1">Meet Our Awesome Team</h2>
+                <div class="row">
+                  <div class="col-lg-3 col-sm-6 sol-xs-12">
+                    <div class="person wow pulse" data-wow-duration="1s" data-wow-offset="400">
+                      <img class="img-circle" src="image/1.jpg" alt="1"/>
+                      <h3>Chris Coyier</h3>
+                      <p>This Is Chris Coyier The Founder Of The Amazing Website Css-Tricks</p>
+                      <i class="fab fa-google-plus-square fa-2x"></i>
+                      <i class="fab fa-facebook-square fa-2x"></i>
+                      <i class="fab fa-twitter-square fa-2x"></i>
+                      <i class="fab fa-youtube-square fa-2x"></i>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6 sol-xs-12">
+                    <div class="person wow pulse" data-wow-duration="1s" data-wow-offset="400">
+                        <img class="img-circle" src="image/2.png" alt="2"/>
+                        <h3>Leah Culver</h3>
+                        <p>This Is Amazing Hacker Woman With A Much Knowledge In Hacking Systems</p>
+                        <i class="fab fa-google-plus-square fa-2x"></i>
+                        <i class="fab fa-facebook-square fa-2x"></i>
+                        <i class="fab fa-twitter-square fa-2x"></i>
+                        <i class="fab fa-youtube-square fa-2x"></i>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6 sol-xs-12">
+                    <div class="person wow pulse" data-wow-duration="1s" data-wow-offset="400">
+                        <img class="img-circle" src="image/3.jpg" alt="3"/>
+                        <h3>Steve Jobs</h3>
+                        <p>This Is The Man Who Change The World With His Apple Products</p>
+                        <i class="fab fa-google-plus-square fa-2x"></i>
+                        <i class="fab fa-facebook-square fa-2x"></i>
+                        <i class="fab fa-twitter-square fa-2x"></i>
+                        <i class="fab fa-youtube-square fa-2x"></i>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6 sol-xs-12">
+                    <div class="person wow pulse" data-wow-duration="1s" data-wow-offset="400">
+                        <img class="img-circle" src="image/4.jpg" alt="4"/>
+                        <h3>Marissa Mayer</h3>
+                        <p>This Is Amazing Hacker Woman With A Much Knowledge In Hacking Systems</p>
+                        <i class="fab fa-google-plus-square fa-2x"></i>
+                        <i class="fab fa-facebook-square fa-2x"></i>
+                        <i class="fab fa-twitter-square fa-2x"></i>
+                        <i class="fab fa-youtube-square fa-2x"></i>
+                      </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- End Section Our Team -->
+
+        <!-- Start Section Subscribe -->
+
+        <section class="subscribe text-center wow fadeInUp" data-wow-duration="1s" data-wow-offset="200">
+          <div class="container">
+            <h2 class="h1">Keep In Touch</h2>
+            <p class="lead">Sign Up For Newsletter Dont Worry About Spam We Hate It Too.</p>
+            <form class="form-inline">
+              <input type="text" class="form-control input-lg" placeholder="Type Your E-mail">
+              <button class="btn btn-danger"><i class="fas fa-edit"></i>Subscribe</button>
+            </form>
+          </div>
+        </section>
+
+        <!-- End Section Subscribe -->
+
+        <!-- Start Section Stats -->
+
+        <section class="statistics text-center">
+          <div class="layout">
+            <div class="container">
+              <h2 class="h1">Our Main Statistics</h2>
+              <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                  <div class="stats">
+                    <i class="fas fa-users fa-5x"></i>
+                    <p>9,550</p>
+                    <span>Satisfied Users</span>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                  <div class="stats">
+                    <i class="fas fa-comments fa-5x"></i>
+                    <p>25,600</p>
+                    <span>Posted Comments</span>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                  <div class="stats">
+                    <i class="fas fa-suitcase fa-5x"></i>
+                    <p>3,260</p>
+                    <span>Projects Done</span>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                  <div class="stats">
+                    <i class="fas fa-headset fa-5x"></i>
+                    <p>95,350</p>
+                    <span>Tickets Archieved</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- End Section Stats -->
+
+        <!-- Start Section Our Skills -->
+
+        <section class="our-skills">
+          <div class="container">
+            <h1 class="text-center">Our Skills</h1>
+            <div class="row">
+
+              <!-- Start Progress Skills -->
+
+              <div class="col-md-5">
+                <div class="skills-prog">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                        Html5 / Css3
+                    </div>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width:55%">
+                        PHP / MySQL
+                    </div>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                        Javascript / jQuery
+                    </div>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width:30%">
+                        Wordpress
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End Progress Skills -->
+              <!-- Start Team Info -->
+
+              <div class="col-md-6 col-md-offset-1">
+                <div class="skill-info">
+                  <h3>About The Team</h3>
+                  <p class="lead">We Are Specialised Desiging And Programming Team Passionate About Web Design And Creatin Digital Ideas We Will Transfer Your Idea To A Digital Dream And Make Your Wish Come True</p>
+                  <button class="btn btn-primary">Talk With A Professional</button>
+                </div>
+              </div>
+
+              <!-- End Team Info -->
+
+            </div>
+          </div>
+        </section>
+
+        <!-- End Section Our SKills -->
+
+        <!-- Start Section Contact Us -->
+
+        <section class="contact-us text-center">
+          <div class="layout">
+            <div class="container">
+              <div class="row">
+                <i class="fas fa-headphones-alt fa-5x"></i>
+                <h2 class="h1">Tell Us What You Fell</h2>
+                <p class="lead">Feel Free To Contact Us Anytime</p>
+
+                <!-- Start Conact Form -->
+
+                <form role="form">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input type="text" class="form-control input-lg" placeholder="Username">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control input-lg" placeholder="E-mail">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control input-lg" placeholder="Cell Phone">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                        <textarea placeholder="Typr Your Messege" class="form-control input-lg"></textarea>
+                    </div>
+                    <div class="form-group">
+                      <button class="btn btn-default btn-block btn-lg">Contact Us</button>
+                    </div>
+                  </div>
+                </form>
+
+                <!-- End Contact Form -->
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+        <!-- End Section Contact Us -->
+
+        <!-- Start Section Our Clients -->
+
+        <section class="our-clients">
+          <div class="container">
+            <div class="row">
+              <ul class="list-unstyled">
+                <li class="col-md-2 col-xs-4">
+                  <img class="img-responsive center-block" src="image/Our-Clients/bbc.png" alt="...">
+                </li>
+                <li class="col-md-2 col-xs-4">
+                  <img class="img-responsive center-block" src="image/Our-Clients/cnn.png" alt="...">
+                </li>
+                <li class="col-md-2 col-xs-4">
+                  <img class="img-responsive center-block" src="image/Our-Clients/forbes.png" alt="...">
+                </li>
+                <li class="col-md-2 col-xs-4">
+                  <img class="img-responsive center-block" src="image/Our-Clients/w.png" alt="...">
+                </li>
+                <li class="col-md-2 col-xs-4">
+                  <img class="img-responsive center-block" src="image/Our-Clients/wired.png" alt="...">
+                </li>
+                <li class="col-md-2 col-xs-4">
+                  <img class="img-responsive center-block" src="image/Our-Clients/wsj.png" alt="...">
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- End Section Our Clients -->
+
+        <!-- Start Ultimate Footer Section -->
+
+        <section class="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-6">
+                <h3>Sitemap</h3>
+                <ul class="list-unstyled three-col">
+                  <li>Home</li>
+                  <li>About</li>
+                  <li>Company</li>
+                  <li>Code</li>
+                  <li>Design</li>
+                  <li>solutions</li>
+                  <li>Sitemap</li>
+                  <li>Contact Us</li>
+                  <li>Host</li>
+                </ul>
+                <ul class="list-unstyled social-list">
+                  <li><img src="image/social-icons/facebook.png" alt="..."></li>
+                  <li><img src="image/social-icons/email.png" alt="..."></li>
+                  <li><img src="image/social-icons/gplus.png" alt="..."></li>
+                  <li><img src="image/social-icons/pinterest.png" alt="..."></li>
+                  <li><img src="image/social-icons/rss.png" alt="..."></li>
+                  <li><img src="image/social-icons/twitter.png" alt="..."></li>
+                </ul>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <h3>Latest Articles</h3>
+                <div class="media">
+                  <a href="#" class="pull-left">
+                    <img class="media-object" src="image/Articles/01.jpg" alt="">
+                  </a>
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      Programming
+                    </h4>
+                    This Is Some Text About Programming Describe The Media Of Bootstrap 3.2.0
+                  </div>
+                </div>
+
+                <div class="media">
+                  <a href="#" class="pull-left">
+                    <img class="media-object" src="image/Articles/02.jpg" alt="">
+                  </a>
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                        Coding
+                    </h4>
+                    This Is Some Text About Programming Describe The Media Of Bootstrap 3.2.0
+                  </div>
+                </div>
+                  
+                <div class="media">
+                  <a href="#" class="pull-left">
+                    <img class="media-object" src="image/Articles/03.jpg" alt="">
+                  </a>
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                        Web Design
+                    </h4>
+                    This Is Some Text About Programming Describe The Media Of Bootstrap 3.2.0
+                  </div>
+                </div>
+    
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <h3>Our Awesome Work</h3>
+                <img class="img-thumbnail" src="image/work/01.jpg" alt="">
+                <img class="img-thumbnail" src="image/work/02.jpg" alt="">
+                <img class="img-thumbnail" src="image/work/03.jpg" alt="">
+                <img class="img-thumbnail" src="image/work/04.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- End Ultimate footer Section -->
+
+        <footer class="text-center">
+            Copyright &copy; 2019 <span>WebDesigner</span>.Inc
+        </footer>
+
+
+        <!-- Start Section Loading -->
+
+        <section class="overlay">
+            <div class="spinner">
+              <div class="dot1"></div>
+              <div class="dot2"></div>
+            </div>
+        </section>
+
+        <!-- End Section Loading -->
+
+        <!-- Start Scroll To Top -->
+
+        <div id="scroll-top">
+          <i class="fas fa-angle-up fa-3x"></i>
+        </div>
+
+        <!-- End Scroll To Top -->
+
+
+        <!-- Font Awesome Files -->
+        <script defer src="js/brands.min.js"></script>
+        <script defer src="js/solid.min.js"></script>
+        <script defer src="js/fontawesome.min.js"></script>
+        <!-- jQuery File -->
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+        <!-- Bootstrap 3 JS File -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- WoW JS File -->
+        <script src="js/wow.min.js"></script>
+        <!-- Nice Scroll File -->
+        <script src="js/jquery.nicescroll.min.js"></script>
+        <!-- Csutom JS File -->
+        <script src="js/plugins.js"></script>
+        <script>new WOW().init();</script>
+    </body>
+</html>
